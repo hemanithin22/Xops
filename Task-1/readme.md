@@ -5,7 +5,8 @@
 
 This project contains a simple, designed HTML page that displays:
 
-![XOps Site]
+<img width="1236" height="640" alt="image" src="https://github.com/user-attachments/assets/5789a3ed-534c-458a-bc30-7138cf8d3715" />
+
 
 
 ---
