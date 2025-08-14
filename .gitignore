@@ -1,0 +1,4 @@
+# Ignore AWS key files
+*.pem
+*.tfstate
+*.terraform
