@@ -1,0 +1,11 @@
+{
+  "name": "xops-cicd-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js project for CI/CD pipeline demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
