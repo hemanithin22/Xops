@@ -2,10 +2,10 @@
 ## Project Screenshots
 
 ### Web Interface
-![App2 Web Interface](Task-3/image-web.png)
+![App2 Web Interface](image-web.png)
 
 ### GitHub Actions Deployment
-![GitHub Actions Deployment](Task-3/image-gitdeploy.png)
+![GitHub Actions Deployment](image-gitdeploy.png)
 
 
 This repository contains **App2**, a simple Node.js HTTP server demonstrating a CI/CD deployment to AWS EC2 using **PM2**. This is part of the `nodejs_proj` project.
@@ -24,12 +24,13 @@ This repository contains **App2**, a simple Node.js HTTP server demonstrating a 
 ## Project Structure
 
 ```
-nodejs_proj/
-└── app2/
-    ├── index.js         # Node.js server entry point
-    ├── package.json     # Node.js project manifest
-    ├── package-lock.json
-    └── style.css        # Static CSS for HTML page
+nodejs_proj
+│
+├── index.js           # Node.js entry point
+├── package.json       # Node.js project manifest
+├── package-lock.json
+└── style.css          # CSS for your HTML page
+
 ```
 
 ---
