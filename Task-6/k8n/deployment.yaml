@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: hemanithin22/app:latest   # <-- your Docker Hub image
+          image: hemanithin22/app:latest
           ports:
             - containerPort: 80
           resources:              # optional but good practice
