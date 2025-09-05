@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: hemanithin22/app:5c12c8768f621e5e259e98a6e6406246d3997225
+          image: hemanithin22/app:b5648dbaf5279147dc6e30be8443254214235cf7
           ports:
             - containerPort: 80
           resources:              # optional but good practice
