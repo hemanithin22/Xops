@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app-deployment
+  labels:
+    app: my-app
 spec:
   replicas: 1
   selector:
@@ -13,7 +15,14 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: my-app
-        image: your-dockerhub-username/app:latest
-        ports:
-        - containerPort: 80
+        - name: my-app
+          image: hemanithin22/app:latest   # <-- your Docker Hub image
+          ports:
+            - containerPort: 80
+          resources:              # optional but good practice
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "200m"
+              memory: "256Mi"
