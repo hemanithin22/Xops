@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/hemanithin22/Xops.git
     targetRevision: main
-    path: k8n
+    path: Task-6/k8n   # <-- corrected path
   destination:
     server: https://kubernetes.default.svc
     namespace: default
